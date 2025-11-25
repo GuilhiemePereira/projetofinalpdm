@@ -1,0 +1,111 @@
+/* Reset suave */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #dfe9f3, #ffffff);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #333;
+}
+
+/* Container principal */
+.container {
+    width: 100%;
+    max-width: 900px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0px 5px 25px rgba(0,0,0,0.1);
+    margin-bottom: 25px;
+}
+
+/* Título */
+.titulo {
+    text-align: center;
+    color: #4457c6;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Bloco */
+.conteudo {
+    background: #f5f6ff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: inset 0px 0px 10px rgba(0,0,50,0.08);
+    margin-top: 20px;
+}
+
+.conteudo h2 {
+    font-size: 1.7rem;
+    color: #4c4f75;
+    margin-bottom: 15px;
+}
+
+/* Botões */
+.botao,
+#btnSalvar,
+#btnListar {
+    background: #5562e3;
+    color: #fff;
+    border: none;
+    padding: 14px 20px;
+    font-size: 1.1rem;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.botao:hover,
+#btnSalvar:hover,
+#btnListar:hover {
+    background: #3d4ad8;
+}
+
+/* Inputs */
+.inputPadrao {
+    width: 80%;
+    padding: 14px;
+    border-radius: 10px;
+    border: 2px solid #d3d6f8;
+    font-size: 1.1rem;
+    outline: none;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.inputPadrao:focus {
+    border-color: #5562e3;
+    box-shadow: 0 0 8px rgba(86, 98, 230, 0.3);
+}
+
+/* Output */
+output {
+    display: block;
+    background: #f1f3ff;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 1rem;
+    white-space: pre-wrap;
+    box-shadow: inset 0px 0px 8px rgba(0,0,50,0.05);
+}
+
+/* Rodapé */
+.rodape {
+    margin-top: 20px;
+    text-align: center;
+    color: #666;
+    font-size: 0.95rem;
+}
